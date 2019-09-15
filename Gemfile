@@ -39,6 +39,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_bot_rails'
+  gem 'jquery-rails'
 end
 
 group :development do
@@ -49,6 +50,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+gem 'sprockets-rails', '~> 3.2.1'
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
