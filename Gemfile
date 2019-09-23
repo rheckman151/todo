@@ -39,6 +39,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_bot_rails'
+  gem 'jquery'
   gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
   gem 'rails-ujs', '~> 0.1.0'
   gem 'turbolinks'
