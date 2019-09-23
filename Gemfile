@@ -39,9 +39,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_bot_rails'
-  gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
-  gem 'rails-ujs', '~> 0.1.0'
-  gem 'turbolinks'
 end
 
 group :development do
@@ -53,6 +50,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'rails-ujs', '~> 0.1.0'
+gem 'turbolinks'
 gem 'sprockets-rails', '~> 3.2.1'
 
 group :test do
